@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Merriweather+Sans:wght@300&display=swap');
-
+:root{
+    --body-bgColor:#e2e8f0;
+}
 body{
+    background-color: var(--body-bgColor);
     font-family: 'Bruno Ace SC', cursive;
     height: 100vh;
     display: grid;
@@ -28,6 +31,7 @@ nav, main, footer{
 }
 
 input, p{
+    padding: 1rem;
     font-family: 'Merriweather Sans', sans-serif;
     border-radius: 10px;
 }
